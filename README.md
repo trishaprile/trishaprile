@@ -1,4 +1,4 @@
-# trishaprile.com
+# trishaprile
 Trisha Le's personal website portfolio
 
 
