@@ -1,18 +1,19 @@
 {
-  "name": "trishaprile.com",
+  "name": "trishaprile",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://trishaprile.github.io/trishaprile",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",
     "@testing-library/user-event": "^12.2.2",
     "bootstrap": "^4.5.3",
+    "homepage": "^1.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4",
-    "homepage": "https://trishaprile.github.io/trishaprile.com"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
