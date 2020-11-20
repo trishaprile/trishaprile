@@ -2,55 +2,63 @@ html, body {
   margin: 0px;
   height: 100%;
 }
-.portfolio {
-  color: #FAFAFA;
-}
 .cover {
   position:absolute;
   width: 100%;
   height: 100%;
   background-color: #F27E59;
+  color: #FAFAFA;
+  font-family: 'Work Sans', sans-serif;
+}
+header {
+  padding: 0.5em 8em;
+  letter-spacing: 0.05em;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+.navBarLink {
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 600;
 }
 .introduction {
   position: absolute;
-  width: 800px;
+  width: 700px;
   text-align: left;
 }
-header {
-  padding: 0.5em 3em;
-  font-size: 24px;
-}
-Navbar.brand {
-  font-size: 60px;
-  color: #FAFAFA;
-}
-h1 {
+.introduction h1 {
   position: absolute;
-  left: 300px;
+  left: 30%;
   top: 200px;
   font-size: 64px;
-  font-weight: 800;
-  letter-spacing: 0.03em;
+  font-weight: bold;
 }
-h2 {
+.introduction h2 {
   position: absolute;
-  left: 300px;
+  left: 30%;
   top: 300px;
   font-size: 42px;
   font-weight: 600;
-  letter-spacing: 0.02em;
 }
-h3 {
+.introduction h3 {
   position: absolute;
-  left: 300px;
+  left: 30%;
   top: 370px;
   font-size: 24px;
   font-weight: 500;
-  letter-spacing: 0.01em;
+}
+.illustration {
+  position: absolute;
+  width: 300px;
+  right: 20%;
+  top: 280px;
+}
+
+.about {
+  padding: 50px;
 }
 p {
   font-size: 26px;
-}
-.about {
-  padding: 50px;
 }
