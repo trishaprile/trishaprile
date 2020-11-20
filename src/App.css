@@ -1,28 +1,56 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+}
 .portfolio {
-  font-family: 'Poppins', 'Segoe UI', 'Arial', sans-serif;
-  color: #303030;
+  color: #FAFAFA;
+}
+.cover {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #F27E59;
+}
+.introduction {
+  position: absolute;
+  width: 800px;
+  text-align: left;
+}
+header {
+  padding: 0.5em 3em;
+  font-size: 24px;
+}
+Navbar.brand {
+  font-size: 60px;
+  color: #FAFAFA;
 }
 h1 {
-  font-size: 60px;
-  font-weight: bold;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
 }
 h2 {
-  font-size: 28px;
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+h3 {
+  position: absolute;
+  left: 300px;
+  top: 370px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
 }
 p {
-  font-size: 20px;
+  font-size: 26px;
 }
-.jumbotron {
-  background-color: #7c609c;
-  color: #fff;
-  padding: 100px;
-  text-align: center;
-}
-.wave {
-  display: block;
-  margin-top: -100px;
-  margin-bottom: -200px;
-}
-.container-fluid {
-  padding: 50px 400px;
+.about {
+  padding: 50px;
 }

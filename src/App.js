@@ -1,22 +1,39 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import './App.css';
 
 function App() {
   return (
-    <div class="portfolio">
-      <div class="jumbotron">
-        <h1>Trisha Le</h1>
-        <h2>Software Developer | UI/UX Designer</h2>
+    <div className="portfolio">
+      <div className="cover">
+        <header>
+          <Navbar>
+            <Navbar.Brand href="#portfolio">trishaprile</Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbar" />
+            <Navbar.Collapse id="navbar">
+              <Nav className="ml-auto">
+                <Nav.Link href="#about">about</Nav.Link>
+                <Nav.Link href="#work">work</Nav.Link>
+                <Nav.Link href="#experience">experience</Nav.Link>
+                <Nav.Link href="#contact">contact</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </header>
+        <div className="introduction">
+          <h1>Hello!</h1>
+          <h2>I'm Trisha,</h2>
+          <h3>a developer and designer who enjoys creating impactful experiences.</h3>
+        </div>
+        {/* <img src={'./img/me.png'} alt="Me" /> */}
       </div>
-      {/* <div class="wave">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path fill="#7c609c" fill-opacity="1" d="M0,96L80,117.3C160,139,320,181,480,181.3C640,181,800,139,960,128C1120,117,1280,139,1360,149.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-        </svg>
-      </div> */}
   
-      <div id="about" class="container-fluid">
-        <p>Hello! My name is Trisha Le and I am currently an undergraduate student at UC Irvine studying Informatics and Education. 
-          I am interested in front-end development, UI/UX design and research, educational technology, and project management.</p>
+      <div className="about">
+        <p>I’m a 20 year old student (she/her) from Orange County, California who aspires to be an innovative creator in the field of technology.
+        Currently, I am pursuing a B.S. in Informatics with a minor in Education at the University of California, Irvine. My major involves the study and practice of human 
+        computer interaction, software design, and human behavior with an emphasis on people and design.
+        I’m passionate about software development, UI & UX design and research, and project management with a focus on education, accessibility, and human-centered design.
+        In my free time, I enjoy journaling, hiking, playing games, watching films, and discovering new places.</p>
       </div>
     </div>
   );
