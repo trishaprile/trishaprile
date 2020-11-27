@@ -15,9 +15,9 @@ class App extends Component {
       <div className="App">
         <Header/>
         <About/>
-        {/* <Work/>
+        <Work/>
         <Experience/>
-        <Contact/> */}
+        <Contact/>
       </div>
     );
   }

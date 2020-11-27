@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import illustration from '../img/me.png';
+import illustration from '../img/me2.png';
 
 class About extends Component {
   render() {
     return (
       <div id="about">
-        <Container className="poop">
+        <Container className="container">
           <Row>
-            <Col className="pic-col"><img className="picture" src={illustration} alt="Me"/></Col>
+            <Col className="pic-col"><img className="illustration" src={illustration} alt="Me"/></Col>
             <Col xs={7} className="info">
               <h1>about me</h1>
               <p>I’m a 20 year old student (she/her) from Orange County, California who aspires to be an innovative creator in the field of technology.</p>

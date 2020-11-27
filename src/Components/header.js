@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import illustration from '../img/me.png';
+import illustration from '../img/me1.png';
 
 class Header extends Component {
   render() {
