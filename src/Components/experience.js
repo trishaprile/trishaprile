@@ -1,5 +1,17 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from "react-bootstrap";
+import figma from '../img/figma.png';
+import adobecc from '../img/adobecc.jpg';
+import bootstrap from '../img/bootstrap.png';
+import html from '../img/html.png';
+import css from '../img/css.png';
+import javascript from '../img/javascript.png';
+import react from '../img/react.png';
+import angular from '../img/angular.png';
+import nodejs from '../img/nodejs.png';
+import django from '../img/django.jpg';
+import graphql from '../img/graphql.png';
+import git from '../img/git.png';
 
 class Experience extends Component {
   render() {
@@ -35,12 +47,33 @@ class Experience extends Component {
             <Col>
               <h2>toolbox</h2>
               <div className="toolbox">
-
+                <Container>
+                  <Row xs={3}>
+                    <Col><img className="icon" src={figma} alt="Figma"/></Col>
+                    <Col><img className="icon" src={adobecc} alt="Adobe Creative Cloud"/></Col>
+                    <Col><img className="icon" src={bootstrap} alt="Bootstrap"/></Col>
+                  </Row>
+                  <Row xs={3}>
+                    <Col><img className="icon" src={html} alt="HTML"/></Col>
+                    <Col><img className="icon" src={css} alt="CSS"/></Col>
+                    <Col><img className="icon" src={javascript} alt="Javascript"/></Col>
+                  </Row>
+                  <Row xs={3}>
+                    <Col><img className="icon" src={react} alt="React"/></Col>
+                    <Col><img className="icon" src={angular} alt="Angular"/></Col>
+                    <Col><img className="icon" src={nodejs} alt="NodeJS"/></Col>
+                  </Row>
+                  <Row xs={3}>
+                    <Col><img className="icon" src={django} alt="Django"/></Col>
+                    <Col><img className="icon" src={graphql} alt="GraphQL"/></Col>
+                    <Col><img className="icon" src={git} alt="Git"/></Col>
+                  </Row>
+                </Container>
               </div>
             </Col>
           </Row>
         </Container>
-        <Button>view resume</Button>
+        <div className="resume"><Button>view resume</Button></div>
       </div>     
     );
   }

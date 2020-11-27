@@ -5,7 +5,14 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact">
+        <footer>
         <h1>contact me</h1>
+        <div className="info">
+          <h2>trishaprilee@gmail.com</h2>
+
+        </div>
+        <p>Made with ♥ in California • © Trisha Le 2020</p>
+        </footer>
       </div>     
     );
   }

@@ -11,7 +11,7 @@ import Contact from './Components/contact';
 class App extends Component {
   render() {
     return (
-      <Scrollbars autoHide style={{ height: 1041 }}>
+      <Scrollbars autoHide style={{ height: 930 }}>
         <div className="App">
           <Cover/>
           <About/>
