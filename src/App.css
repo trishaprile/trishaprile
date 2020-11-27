@@ -5,57 +5,59 @@ html, body {
 .App {
   font-family: 'Work Sans', sans-serif;
 }
-#header {
+
+#cover {
   position:relative;
   height: 1080px;
   background-color: #F27E59;
   color: #FAFAFA;
 }
-#header header {
+#cover header {
   padding: 1em 8em;
   letter-spacing: 0.05em;
 }
-#header .logo {
+#cover .logo {
   font-size: 28px;
   font-weight: 600;
 }
-#header .navBarLink {
+#cover .navBarLink {
   margin-right: 25px;
   font-size: 20px;
   font-weight: 600;
 }
-#header .introduction {
+#cover .introduction {
   position: absolute;
   width: 500px;
   text-align: left;
   left: 15%;
   top: 35%;
 }
-#header h1 {
+#cover h1 {
   position: absolute;
   font-size: 64px;
   font-weight: 700;
   letter-spacing: 0.03em;
 }
-#header h2 {
+#cover h2 {
   position: absolute;
   font-size: 42px;
   font-weight: 600;
-  padding-top: 2em;
+  padding-top: 2.5em;
 }
-#header h3 {
+#cover h3 {
   position: absolute;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 500;
   padding-top: 6em;
 
 }
-#header .illustration {
+#cover .illustration {
   position: absolute;
-  width: 500px;
+  width: 600px;
   right: 15%;
   top: 25%;
 }
+
 #about {
   position: relative;
   height: 1080px;
@@ -70,7 +72,7 @@ html, body {
   width: 400px;
 }
 #about h1 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   color: #F27E59;
   padding-bottom: 1em;
@@ -78,4 +80,85 @@ html, body {
 #about p {
   color: #4D4D4D;
   font-size: 22px;
+}
+
+#work {
+  position: relative;
+  height: 1080px;
+  background-color: #F9D184;
+}
+#work h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #FAFAFA;
+  padding-top: 2em;
+}
+#work h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #4D4D4D;
+}
+#work h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #AFAFAF;
+}
+#work .project {
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  border-radius: 20px;
+  background: #FAFAFA;
+}
+
+#experience {
+  position: relative;
+  height: 1080px;
+}
+#experience .job{
+  padding-bottom: 1em;
+}
+#experience h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #F27E59;
+  padding-top: 2em;
+}
+#experience h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #4D4D4D;
+}
+#experience h3 {
+  font-size: 20px;
+  font-style: italic;
+  color: #AFAFAF;
+}
+#experience p {
+  font-size: 24px;
+  color: #4D4D4D;
+}
+#experience Button {
+  font-size: 24px;
+  color: #FAFAFA;
+  background: #69AC78;
+  border-color: #69AC78;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0.5em;
+}
+
+#contact {
+  position: relative;
+  height: 1080px;
+  background-color: #69AC78;
+}
+#contact h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #FAFAFA;
+  padding-top: 2em;
 }

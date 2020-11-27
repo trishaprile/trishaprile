@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import illustration from '../img/me1.png';
 
-class Header extends Component {
+class Cover extends Component {
   render() {
     return (
-      <div id="header">
+      <div id="cover">
         <header>
           <Navbar variant="dark">
-            <Navbar.Brand className="logo" style={{fontSize: 28}} href="#portfolio">trishaprile</Navbar.Brand>
+            <Navbar.Brand className="logo" style={{fontSize: 28}} href="#cover">trisha april le</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar"/>
             <Navbar.Collapse id="navbar">
               <Nav className="ml-auto">
@@ -30,4 +30,4 @@ class Header extends Component {
     );
   }
 }
-export default Header;
+export default Cover;
