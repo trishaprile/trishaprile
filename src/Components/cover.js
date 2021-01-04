@@ -8,7 +8,7 @@ class Cover extends Component {
       <div id="cover">
         <header>
           <Navbar variant="dark">
-            <Navbar.Brand className="logo" style={{fontSize: 28}} href="#cover">trisha april le</Navbar.Brand>
+            <Navbar.Brand className="logo" style={{fontSize: 28}} href="#cover">trisha le</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar"/>
             <Navbar.Collapse id="navbar">
               <Nav className="ml-auto">
