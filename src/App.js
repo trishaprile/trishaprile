@@ -11,15 +11,13 @@ import Contact from './Components/contact';
 class App extends Component {
   render() {
     return (
-      <Scrollbars autoHide style={{ height: 930 }}>
-        <div className="App">
-          <Cover/>
-          <About/>
-          <Work/>
-          <Experience/>
-          <Contact/>
-        </div>
-      </Scrollbars>
+      <div className="App">
+        <Cover/>
+        <About/>
+        <Work/>
+        <Experience/>
+        <Contact/>
+      </div>
     );
   }
 }
