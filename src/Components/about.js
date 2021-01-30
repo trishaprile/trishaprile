@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import illustration from '../img/me2.png';
+import illustration from '../assets/me2.png';
 
 class About extends Component {
   render() {

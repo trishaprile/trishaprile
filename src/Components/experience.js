@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from "react-bootstrap";
-import figma from '../img/figma.png';
-import adobecc from '../img/adobecc.jpg';
-import bootstrap from '../img/bootstrap.png';
-import html from '../img/html.png';
-import css from '../img/css.png';
-import javascript from '../img/javascript.png';
-import react from '../img/react.png';
-import angular from '../img/angular.png';
-import nodejs from '../img/nodejs.png';
-import django from '../img/django.jpg';
-import graphql from '../img/graphql.png';
-import git from '../img/git.png';
+import figma from '../assets/figma.png';
+import adobecc from '../assets/adobecc.jpg';
+import bootstrap from '../assets/bootstrap.png';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import javascript from '../assets/javascript.png';
+import react from '../assets/react.png';
+import angular from '../assets/angular.png';
+import nodejs from '../assets/nodejs.png';
+import django from '../assets/django.jpg';
+import graphql from '../assets/graphql.png';
+import git from '../assets/git.png';
 
 class Experience extends Component {
   render() {

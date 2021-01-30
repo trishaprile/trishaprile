@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import illustration from '../img/me1.png';
+import illustration from '../assets/me1.png';
 
 class Cover extends Component {
   render() {
