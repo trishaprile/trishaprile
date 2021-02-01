@@ -1,0 +1,51 @@
+#cover {
+  position:relative;
+  height: 1080px;
+  background-color: #F27E59;
+  color: #FAFAFA;
+}
+#cover header {
+  padding: 1em 8em;
+  letter-spacing: 0.05em;
+}
+#cover .logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+#cover .navBarLink {
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+#cover .introduction {
+  position: absolute;
+  width: 500px;
+  text-align: left;
+  left: 15%;
+  top: 35%;
+}
+#cover h1 {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+#cover h2 {
+  position: absolute;
+  font-size: 42px;
+  font-weight: 600;
+  padding-top: 2.5em;
+}
+#cover h3 {
+  position: absolute;
+  font-size: 26px;
+  font-weight: 500;
+  padding-top: 6em;
+
+}
+#cover .illustration {
+  position: absolute;
+  width: 600px;
+  right: 15%;
+  top: 25%;
+}

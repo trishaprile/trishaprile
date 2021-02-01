@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import illustration from '../assets/me2.png';
-
+import './about.css';
 class About extends Component {
   render() {
     return (

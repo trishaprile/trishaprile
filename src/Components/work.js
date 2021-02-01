@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
+import './work.css';
 
 class Work extends Component {
   render() {
@@ -17,7 +18,7 @@ class Work extends Component {
 							</Col>
 							<Col xs={6}>
                 <div className="project">
-                  {/* https://icsscprojects.wordpress.com/ */}
+                  {/* https://icsscprojects.medium.com/peters-roadmap-peterportal-s-4-year-course-planner-64072e1adfb5 */}
                   <h2>Peter's Roadmap</h2>
                   <h3>An interactive 4-year course planner for students</h3>
                 </div>
@@ -34,8 +35,8 @@ class Work extends Component {
 							<Col xs={6}>
                 <div className="project">
                   {/* https://medium.com/inf-132-group-17/soundcloud-redesign-b7ec659abecb */}
-                  <h2>SoundCloud Redesign</h2>
-                  <h3>A UX case study of the popular music streaming service SoundCloud</h3>
+                  <h2>Jam for Change</h2>
+                  <h3>A week-long development competition for social good.</h3>
                 </div>
 							</Col>
             </Row>

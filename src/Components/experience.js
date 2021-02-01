@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './experience.css';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import figma from '../assets/figma.png';
 import adobecc from '../assets/adobecc.jpg';
@@ -24,8 +25,8 @@ class Experience extends Component {
               <div className="jobs">
                 <div className="job">
                   <h3>2020 - present</h3>
-                  <h2>PeterPortal</h2>
-                  <p>Front-End Developer & UI/UX Lead</p>
+                  <h2>StartSmart</h2>
+                  <p>Front-End Developer</p>
                 </div>
                 <div className="job">
                   <h3>2019 - 2020</h3>

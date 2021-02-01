@@ -1,0 +1,23 @@
+#about {
+  position: relative;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+}
+#about .pic-col {
+  display: flex;
+  align-items: center;
+}
+#about .illustration {
+  width: 400px;
+}
+#about h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #F27E59;
+  padding-bottom: 1em;
+}
+#about p {
+  color: #4D4D4D;
+  font-size: 22px;
+}

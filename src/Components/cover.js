@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './cover.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import illustration from '../assets/me1.png';
 
