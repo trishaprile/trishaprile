@@ -1,51 +1,36 @@
 #cover {
-  position:relative;
-  height: 1080px;
-  background-color: #F27E59;
+  height: 100vh;
+  background-color: #EC987D;
+  background-image: linear-gradient(315deg, #EC987D 0%, #CA461C 74%);
   color: #FAFAFA;
 }
-#cover header {
-  padding: 1em 8em;
-  letter-spacing: 0.05em;
+
+.cover-container {
+  text-align: center;
+  margin-top: 25vh;
 }
-#cover .logo {
-  font-size: 28px;
-  font-weight: 600;
-}
-#cover .navBarLink {
-  margin-right: 25px;
-  font-size: 20px;
-  font-weight: 600;
-}
-#cover .introduction {
-  position: absolute;
-  width: 500px;
-  text-align: left;
-  left: 15%;
-  top: 35%;
-}
-#cover h1 {
-  position: absolute;
+
+.intro-title {
+  text-align: center;
   font-size: 64px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  animation-duration: 2000ms;
+  animation-name: fadeIn;
 }
-#cover h2 {
-  position: absolute;
-  font-size: 42px;
-  font-weight: 600;
-  padding-top: 2.5em;
-}
-#cover h3 {
-  position: absolute;
+
+.intro-subtitle {
+  text-align: center;
   font-size: 26px;
   font-weight: 500;
-  padding-top: 6em;
+  padding-top: 2rem;
+  width: 35vw;
+  margin: auto;
+  animation-duration: 3000ms;
+  animation-name: fadeIn;
+}
 
-}
-#cover .illustration {
-  position: absolute;
-  width: 600px;
-  right: 15%;
-  top: 25%;
-}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
