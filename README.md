@@ -4,4 +4,4 @@
 
 I am currently a front-end developer at [StartSmart](https://startsmart.co/) and project lead at [ICSSC Projects Committee](https://icsscprojects.medium.com/).
 
-Contact me at trishaprilee@gmail.com or connect with me at [linkedin.com/in/trishaprile](https://www.linkedin.com/in/trishaprile/)!
+Contact me at trishaprilee@gmail.com or connect with me at [linkedin.com/in/trishaprile](https://www.linkedin.com/in/trishaprile/)
