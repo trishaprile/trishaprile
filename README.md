@@ -1,6 +1,7 @@
 # trishaprile
 
-### Hello! I'm Trisha, a developer and designer interested in front-end software development, UI/UX research and design, and product/project management. I recently graduated from studying Informatics (Specializing in Human-Computer Interaction) and Education at the University of California, Irvine.
+### Hello! I'm Trisha, a developer and designer interested in front-end software development, UI/UX research and design, and product/project management. \
+I recently graduated from the University of California, Irvine with a B.S. in Informatics and a minor in Education.
 
 I am currently the lead front-end developer at [StartSmart's](https://startsmart.co/) [Grasshopperfund](https://grasshopperfund.com).
 
