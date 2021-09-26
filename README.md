@@ -4,6 +4,6 @@ I recently graduated from the University of California, Irvine with a B.S. in In
 
 I am currently a Product Manager at [StartSmart's](https://startsmart.co/) [Grasshopperfund](https://grasshopperfund.com).
 
-Contact me at trishaprilee@gmail.com, 
-Connect with me at [linkedin.com/in/trishaprile](https://www.linkedin.com/in/trishaprile/),
-Or check out my [website](https://trishaprile.com/)!
+Contact me at trishaprilee@gmail.com,\
+Connect with me at [LinkedIn](https://www.linkedin.com/in/trishaprile/)\
+Or check out my [website](https://trishaprile.com/)!\
