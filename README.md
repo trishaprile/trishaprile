@@ -1,8 +1,6 @@
-### Hello! I'm Trisha, a manager, developer and designer interested in software development, UI & UX research and design, and product & project management.
+### Hello! I'm Trisha, a manager, developer, and designer interested in software development, UI & UX design and research, and product management.
 
-I recently graduated from the University of California, Irvine with a B.S. in Informatics and a minor in Education.
-
-I am currently a Product Manager at [StartSmart's](https://startsmart.co/) [Grasshopperfund](https://grasshopperfund.com).
+I recently graduated from the University of California, Irvine with a B.S. in Informatics (Human-Computer Interaction) and a minor in Education.
 
 Contact me at trishaprilee@gmail.com,\
 Connect with me on [LinkedIn](https://www.linkedin.com/in/trishaprile/),\
