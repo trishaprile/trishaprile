@@ -1,4 +1,4 @@
-### Hello! I'm Trisha, a manager, developer, and designer interested in software development, UI & UX design and research, and product management.
+### Hello! I'm Trisha, a developer and designer interested in software development, UI & UX design and research, and product management.
 
 I recently graduated from the University of California, Irvine with a B.S. in Informatics (Human-Computer Interaction) and a minor in Education.
 
